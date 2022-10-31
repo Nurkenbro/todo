@@ -1,6 +1,21 @@
 .App {
-  border: 1px solid rgb(84, 84, 84);
+  border: 1px solid rgb(98, 98, 98);
   width: 550px;
   margin: 150px auto;
   border-radius: 4px;
-} 
+  overflow: hidden;
+}
+
+.content {
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.content__body {
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.content__body > div:nth-child(even) {
+  background: rgb(220, 220, 220);
+}
