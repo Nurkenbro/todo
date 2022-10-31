@@ -49,6 +49,7 @@ function App() {
       text={item.text}
       status={item.status}
       onDelete={onDelete}
+      onStatusChange={onStatusChange}
       onEdit={onEdit}
     />
   ));
